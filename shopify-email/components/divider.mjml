@@ -1,4 +1,4 @@
-<mj-section>
+<mj-section css-class="background-white">
   <mj-column>
     <mj-image padding="0" src="http://127.0.0.1:5500/assets/3-lines.png">
   </mj-column>
