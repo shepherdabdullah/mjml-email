@@ -23,18 +23,29 @@
   <mj-body background-color="#f2f2f2">
     <mj-include path="./components/header.mjml">
 
+      <mj-raw>
+        <!--Intro and Date-->
+      </mj-raw>
       <mj-section>
         <mj-column padding="20px 0 30px 0">
           <mj-text css-class="header-title" font-size="58px" color="#004c3f" font-weight="bold">
             What's New
           </mj-text>
           <mj-text css-class="header-title" font-size="18px" color="#004c3f">
-            January 1, 2025
+            March 17, 2025
           </mj-text>
         </mj-column>
       </mj-section>
 
-      <mj-include path="./components/footer.mjml">
+      <mj-raw>
+        <!--Yellow Lines Divider-->
+      </mj-raw>
+      <mj-include path="./components/divider.mjml">
+
+        <mj-raw>
+          <!--footer-->
+        </mj-raw>
+        <mj-include path="./components/footer.mjml">
   </mj-body>
 
 </mjml>
