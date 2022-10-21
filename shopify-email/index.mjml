@@ -54,7 +54,7 @@
 
       .icon-size {
         max-width: 280px;
-        padding: 40px 0 60px 0;
+        padding: 40px 0 25px 0;
       }
 
       .footer {
