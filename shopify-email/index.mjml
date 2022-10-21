@@ -4,6 +4,28 @@
       * {
         box-sizing: border-box;
       }
+
+      .link {
+        color: #004c3f;
+        text-decoration: none;
+      }
+
+      .link:hover {
+        font-weight: bold;
+        color: #004c3f;
+        text-decoration: underline;
+      }
+
+      .link2 {
+        color: #008060;
+        text-decoration: none;
+      }
+
+      .link2:hover {
+        font-weight: bold;
+        color: #008060;
+        text-decoration: underline;
+      }
     </mj-style>
     <mj-style inline="inline">
       .header {
@@ -41,6 +63,27 @@
         <!--Yellow Lines Divider-->
       </mj-raw>
       <mj-include path="./components/divider.mjml">
+
+        <mj-section>
+          <mj-column>
+            <mj-image href="https://shopify.com/blog" padding-bottom="20px" src="http://127.0.0.1:5500/assets/image.jpg">
+
+          </mj-column>
+          <mj-column>
+            <mj-text color="#004c3f" font-size="24px" font-weight="bold" padding-bottom="20px">
+              <a class="link" href="https://shopify.com/blog">Find more ways to sell with pre-orders</a>
+            </mj-text>
+            <mj-text color="#004c3f" font-size="16px" line-height="20px" padding-bottom="20px">
+              We've gone and made selling even easier, with pre-orders. Give your
+              customers the ability to pay now, pay a deposit, or pay later, and
+              in the process, increase your sales, forecast demand, and create buzz
+              for your products.
+            </mj-text>
+            <mj-text color="#008060" font-size="14px" font-weight="bold" line-height="20px" padding-bottom="20px">
+              <a class="link2" href="https://shopify.com">Learn More →</a>
+            </mj-text>
+          </mj-column>
+        </mj-section>
 
         <mj-raw>
           <!--footer-->
