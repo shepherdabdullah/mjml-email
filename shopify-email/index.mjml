@@ -36,6 +36,13 @@
         color: #004c3f;
         text-decoration: none;
       }
+
+      @media only screen and (max-width:480px) {
+        .can-spam-link {
+          color: red;
+          text-decoration: none;
+        }
+      }
     </mj-style>
     <mj-style inline="inline">
       .header {
