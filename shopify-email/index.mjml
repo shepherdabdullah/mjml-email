@@ -18,6 +18,8 @@
   </mj-head>
   <mj-body background-color="#f2f2f2">
     <mj-include path="./components/header.mjml">
+
+      <mj-include path="./components/footer.mjml">
   </mj-body>
 
 </mjml>
